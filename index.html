@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kenza Kahramane — Portfolio</title>
+  <meta name="description" content="Personal portfolio of Kenza Kahramane, software engineer." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="wrap">
+      <!-- EDIT: your name -->
+      <a href="#" class="nav-name">Kenza Kahramane</a>
+      <button class="nav-toggle" aria-label="Toggle menu">menu</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero wrap">
+    <!-- EDIT: your role/status -->
+    <p class="hero-eyebrow">Computer Science student at WPI</p>
+    <!-- EDIT: your name + one-line hook -->
+    <h1>Hi, I'm Kenza.</h1>
+    <!-- EDIT: 1-2 sentence bio -->
+    <p>I'm a junior studying CS, concentrating in cybersecurity.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#projects">See my work</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="wrap about-grid">
+      <div>
+        <h2 class="section-title">About</h2>
+        <!-- EDIT: your longer bio -->
+        <p>I got into programming seeing my inspiration, my mom, code. Right now I'm most interested in cybersecurity and software security design and analysis. Outside of class, I'm part of my school's Women in Computer Science chapter, where I help run workshops like this one.</p>
+        <p>When I'm not coding, you'll probably find me drawing, reading romance, or trying (and often failing) to crochet.</p>
+      </div>
+      <!-- EDIT: swap for your own photo at images/profile.jpg -->
+      <img class="about-photo" src="images/profile-placeholder.svg" alt="Portrait of Kenza Kahramane" />
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-intro">A few things I've built recently. Duplicate a
+        .project-card block in index.html to add your own.</p>
+
+      <div class="project-grid">
+        <!-- EDIT: featured project -->
+        <article class="project-card featured">
+          <h3>RoomSplit</h3>
+          <p>A campus shuttle tracker that predicts arrival times using
+            historical GPS data, built for our university's transit office.
+            Used by ~2,000 students in its first semester.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+          <a class="project-link" href="#">View project →</a>
+        </article>
+
+        <!-- <article class="project-card">
+          <h3>StudySync</h3>
+          <p>A study-group matcher for CS courses based on schedule and
+            learning style.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Firebase</span>
+          </div>
+          <a class="project-link" href="#">View project →</a>
+        </article> -->
+
+        <article class="project-card">
+          <h3>Beginning in cybersecurity game</h3>
+          <p>A game using art to explain basic concepts of cybersecurity.</p>
+          <div class="project-tags">
+            <span class="tag">Rust</span>
+          </div>
+          <a class="project-link" href="#">View project →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-intro">Languages, tools, and frameworks I use.</p>
+      <!-- EDIT: your own skills -->
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>SQL</li>
+        <li>Git</li>
+        <li>Agile Methodology</li>
+        <li>Figma</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-intro">The best ways to reach me.</p>
+      <!-- EDIT: your real links -->
+      <ul class="contact-links">
+        <li><a href="mailto:kenzakahramane@gmail.com">Email</a></li>
+        <li><a href="https://github.com/">GitHub</a></li>
+        <li><a href="https://linkedin.com/">LinkedIn</a></li>
+        <li><a href="#">Resume (PDF)</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <p>Built by Kenza Kahramane · made at a Women in Computer Science workshop</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
