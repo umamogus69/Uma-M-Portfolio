@@ -6,13 +6,13 @@
 
 :root {
   /* ---- Colors ---- */
-  --color-bg: #f8f3fa;          /* page background */
-  --color-ink: #2d1d37;          /* main text */
-  --color-ink-soft: #6c5a70;     /* secondary text */
-  --color-accent: #832dc9;       /* headings, links, highlights */
-  --color-accent-soft: #dec4f0;  /* accent backgrounds, tags */
-  --color-line: #d8c8dd;         /* borders, dividers */
-  --color-card: #ffffff;         /* project card background */
+  --color-bg: #1447ae;
+--color-ink: #14171f;
+--color-ink-soft: #2558d0;
+--color-accent: #2f6f6b;
+--color-accent-soft: #d0d2d2;
+--color-line: #8ab0f1;
+--color-card: #e84444;
 
   /* ---- Fonts ----
      Display font = big personality (headings, name)
