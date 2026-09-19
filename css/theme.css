@@ -6,13 +6,13 @@
 
 :root {
   /* ---- Colors ---- */
-  --color-bg: #1447ae;
+--color-bg: #f5f6f8;
 --color-ink: #14171f;
---color-ink-soft: #2558d0;
+--color-ink-soft: #5c6270;
 --color-accent: #2f6f6b;
---color-accent-soft: #d0d2d2;
---color-line: #8ab0f1;
---color-card: #e84444;
+--color-accent-soft: #d8e8e6;
+--color-line: #dcdfe4;
+--color-card: #ffffff;
 
   /* ---- Fonts ----
      Display font = big personality (headings, name)
